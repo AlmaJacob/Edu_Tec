@@ -19,7 +19,7 @@ def courses(req):
     
 def placement(req):
     data=Placement.objects.all()
-    return render(req, 'placement.html', {'placements': data})
+    return render(req, 'placements.html', {'placements': data})
 
 
 def contact(req):
